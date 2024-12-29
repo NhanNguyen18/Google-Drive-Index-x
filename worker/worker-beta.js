@@ -14,10 +14,10 @@ const serviceaccounts = [
 const randomserviceaccount = serviceaccounts[Math.floor(Math.random()*serviceaccounts.length)];
 
 const authConfig = {
-    "siteName": "Bhadoo Drive Index", // Website name
-    "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
-    "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
-    "refresh_token": "", // Authorize token
+    "siteName": "Nhan Nguyen Drive Index", // Website name
+    "client_id": "751859014227-7pj5tb404r53q20nuv0dhfh3duat6gm8.apps.googleusercontent.com", // Client id from Google Cloud Console
+    "client_secret": "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", // Client Secret from Google Cloud Console
+    "refresh_token": "1//04DJR68FSHi4uCgYIARAAGAQSNwF-L9Irf8ZOzRRpH3JOhWUEzHTEGxHdnVarxMqZUvNwvF5v8zKCYM43CtXPogbntuOea7Uwl3k", // Authorize token
     "service_account": false, // true if you're using Service Account instead of user account
     "service_account_json": randomserviceaccount, // don't touch this one
     "files_list_page_size": 50,
@@ -27,7 +27,7 @@ const authConfig = {
     "roots":[
       {
           "id": "root",
-          "name": "Drive One",
+          "name": "Drive 1",
           "protect_file_link": false,
          // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
       },
